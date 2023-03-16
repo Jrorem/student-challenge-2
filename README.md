@@ -1,6 +1,8 @@
 
 # student-challenge-2
 
+###https://github.com/Jrorem/student-challenge-2.git
+
 ## AS AN employer
 
 # I WANT to view a potential employee's deployed portfolio of work samples
