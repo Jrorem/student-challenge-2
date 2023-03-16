@@ -1,7 +1,7 @@
 
 # student-challenge-2
 
-###https://github.com/Jrorem/student-challenge-2.git
+###https://jrorem.github.io/student-challenge-2/
 
 ## AS AN employer
 
