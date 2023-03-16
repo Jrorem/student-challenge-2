@@ -8,37 +8,59 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+    <!-- <div class="container"> -->
     <header>
-        <h1 class="hi">Welcome</h1>
+        <h1 class="hi">Joe Rorem</h1>
     </header>
     <nav>
             <ul>
-                <li class="list-about-me">
-                    <h2>About Me</h2>
-                </li>
-                <li class="list-projects">
-                    <h2>Projects</h2>
-                </li>
-                <li class="list-resume">
+                <button class="button-about-me">
+                <a href="#about-me">About me</a>   
+                </button>
+                
+                <button class="button-projects">
+                    <a href="#projects">Projects</a>
+                </button>
+                <button class="button-resume">
                     <h2>Resume</h2>
-                </li>
-                <li class="list-contact">
-                    <h2>Contact</h2>
-                </li>
+                </button>
+                <button class="button-contact">
+                    <a href="#contact">Contact</a>
+                </button>
             </ul>
     </nav>
+<!-- </div> -->
+    <!-- <div class="container"> -->
+    <section id="about-me">
+    <h2 id="about-me">About Me</h2>
+    <p class="about-me">Hi, I'm Joe and I am a student in a web development bootcamp</p>
+    </section>
     
-    <section class="about-me">
-    <h1>About Me</h1>
-    </section>
+    <!-- </div> -->
     <section class="projects">
-        <h1>Projects</h1>
+        
+        <h2 id="projects">Projects</h2>
     </section>
-    <section class="resume">
-        <h1>Resume</h1>
+    <div class="image-container">
+    <div class="text-container">
+    <section class="images">
+        <div class="centered">Matrix</div>
+        <img src="images/matrix.jpg" alt="Matrix" width="300">
+    
+        <div class="centered">Hack</div>
+        <img src="images/hacker.jpg" alt="Hacker" width="300">
+        <div class="centered">Processor</div>
+        <img src="images/processor.jpg" alt="Processor" width="300">
+        <div class="centered">AI</div>
+        <img src="images/ai.jpg" alt="AI" width="300">
+    </div>
+</div>
     </section>
     <section class="contact">
-        <h1>Contact</h1>
+       
+        <h2 id="contact">Contact</h2>
+        <p>joerorem@gmail.com</p>
+    
     </section>
 
 </body>
